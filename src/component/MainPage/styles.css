@@ -1,8 +1,10 @@
 .countingBox {
-  width: 10vw;
+  width: auto;
+  min-width: 10vw;
   border: solid 3px #41403e;
   border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
   box-shadow: 15px 28px 25px -18px rgba(0, 0, 0, 0.2);
+  padding: 0px 8px;
 }
 .button {
   align-self: center;
